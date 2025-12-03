@@ -1,4 +1,4 @@
-import { DayGroup, EditorNote } from '../types';
+import type { DayGroup, EditorNote } from '../types';
 
 const STORAGE_KEYS = {
   RECORDINGS: 'mimal-note-speech-recordings',

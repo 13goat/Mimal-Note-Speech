@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { storageService } from '../utils/storage';
-import { NoteItem } from '../types';
+import type { NoteItem } from '../types';
 
 interface RecorderProps {
   onRecordComplete: () => void;

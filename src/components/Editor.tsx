@@ -26,7 +26,7 @@ import {
   MediaEmbed,
   SourceEditing,
 } from 'ckeditor5';
-import { EditorNote } from '../types';
+import type { EditorNote } from '../types';
 import { storageService } from '../utils/storage';
 import 'ckeditor5/ckeditor5.css';
 
@@ -213,7 +213,7 @@ export const Editor = ({ noteId, onSave }: EditorProps) => {
                 editable.classList.add('line-numbered-editor');
               }
             }}
-            onChange={(event, editor) => {
+            onChange={() => {
               // Handle change if needed
             }}
           />

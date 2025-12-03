@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { EditorNote } from '../types';
+import type { EditorNote } from '../types';
 import { storageService } from '../utils/storage';
 
 interface NoteListProps {

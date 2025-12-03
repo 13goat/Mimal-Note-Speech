@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { DayGroup, NoteItem } from '../types';
+import type { DayGroup } from '../types';
 import { storageService } from '../utils/storage';
 
 export const ReadingPreview = () => {
